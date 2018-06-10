@@ -7,19 +7,40 @@ body {
 }
 .navigation {
   line-height: 2;
+  font-size: 18px;
+  color: white
 }
 .about, .work, .team, .contact {
   background-color: white;
   padding: 18px;
 }
 .footer {
-  width: 960px;
-  height: 28px;
   background-color: dimgray;
   font-size: 11px;
+  padding: 15px;
+  height: 11px;
+  color: white;
 }
 .rick, .gilfoyle, .elliot {
   width: 300px;
   display: inline-block;
   border: 2px solid;
+}
+.design {
+  background-image: url(../images/the-flatiron-building.png);
+  height: 30px;
+  color: white;
+}
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 23px;
+  font-weight: bold;
 }
