@@ -1,10 +1,13 @@
 body {
-  background-image: url(../images/the-flatiron-building.png);
   font-family: Helvetica;
+  background-color: white;
 }
 .container {
   text-align: center;
 }
+/*.title {
+  background-image: url(../images/the-flatiron-building.png);
+}*/
 .navigation {
   line-height: 2;
   font-size: 18px;
@@ -17,8 +20,8 @@ body {
 .footer {
   background-color: dimgray;
   font-size: 11px;
-  padding: 15px;
-  height: 11px;
+  /*padding: 15px;
+  height: 11px;*/
   color: white;
 }
 .rick, .gilfoyle, .elliot {
@@ -26,9 +29,14 @@ body {
   display: inline-block;
   border: 2px solid;
 }
+.top_container {
+  background-image: url(../images/the-flatiron-building.png);
+  background-repeat: no-repeat;
+  color: white;
+  padding-bottom: 15px;
+}
 .design {
   background-image: url(../images/the-flatiron-building.png);
-  height: 30px;
   color: white;
 }
 h1 {
