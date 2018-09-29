@@ -1,54 +1,110 @@
+/* Typography */
 body {
-  font-family: Helvetica;
-  background-color: white;
-}
-.container {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #ffffff;
   text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
 }
-/*.title {
-  background-image: url(../images/the-flatiron-building.png);
-}*/
-.navigation {
-  line-height: 2;
-  font-size: 18px;
-  color: white
-}
-.about, .work, .team, .contact {
-  background-color: white;
-  padding: 18px;
-}
-.footer {
-  background-color: dimgray;
-  font-size: 11px;
-  /*padding: 15px;
-  height: 11px;*/
-  color: white;
-}
-.rick, .gilfoyle, .elliot {
-  width: 300px;
-  display: inline-block;
-  border: 2px solid;
-}
-.top_container {
-  background-image: url(../images/the-flatiron-building.png);
-  background-repeat: no-repeat;
-  color: white;
-  padding-bottom: 15px;
-}
-.design {
-  background-image: url(../images/the-flatiron-building.png);
-  color: white;
-}
+
 h1 {
+  font-family: 'Cinzel', serif;
   font-size: 70px;
-  font-weight: bold;
-  color: white;
+  font-weight: 900;
+  color: #ffffff;
+  margin-top: 0px;
 }
+
 h2 {
   font-size: 32px;
   font-weight: bold;
 }
+
 h3 {
   font-size: 23px;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+#design {
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* Header */
+header {
+  background-image: url(../images/the-flatiron-building.png);
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+/* Navigation */
+nav {
+  line-height: 2;
+  font-size: 18px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* White Background Sections */
+#about, #work, #team, #contact {
+  background-color: #ffffff;
+  padding: 18px;
+}
+
+/* About Section */
+#about figure {
+  background-color: #d7dde0;
+  padding: 1.5rem;
+}
+
+/* Designed in NY Banner */
+#design {
+  background-image: url(../images/the-flatiron-building.png);
+  padding: 0.5rem;
+}
+
+.designerContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.designers {
+  max-width: 30%;
+  border: 1px solid;
+  margin-top: 1.25rem;
+  background-color: #d7dde0;
+  min-width: 250px;
+}
+
+.designers figure img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #d7dde0;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+footer nav a,
+footer nav span{
+  display: none;
+}
+
+@media only screen and (min-width: 540px) {
+
+  footer nav a,
+  footer nav span{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+
 }
